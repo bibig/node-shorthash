@@ -5,7 +5,7 @@
 		"url": "https://twitter.com/bibig"
 	  },
     "name": "shorthash",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Node.js module to get a short unique hash of a string",
     "preferGlobal": "true",
     "main": "index.js",
