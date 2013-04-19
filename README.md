@@ -1,4 +1,4 @@
 node-shorthash
 ==============
 
-get a unique short hash of a string
+get an unique short hash of a string
