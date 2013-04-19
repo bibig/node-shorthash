@@ -1,0 +1,22 @@
+{
+	"author": {
+		"name": "Bibig",
+		"email": "bibig@me.com",
+		"url": "https://twitter.com/bibig"
+	  },
+    "name": "shorthash",
+    "version": "0.0.1",
+    "description": "Node.js module to get a short unique hash of a string",
+    "preferGlobal": "true",
+    "main": "index.js",
+    "keywords": ["hash", "shorthash"],
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/bibig/node-shorthash.git"
+    },
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "dependencies": {
+    },
+    "engines": { "node": "*" }
+}
