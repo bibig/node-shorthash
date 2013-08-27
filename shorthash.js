@@ -10,7 +10,7 @@
 exports.bitwise = bitwise;
 exports.binaryTransfer = binaryTransfer;
 exports.unique = unique;
-exports.random = random;
+
 
 // refer to: http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/
 function bitwise(str){
@@ -65,20 +65,4 @@ function binaryTransfer(integer, binary) {
 function unique (text) {
 	var id = binaryTransfer(bitwise(text), 61);
 	return id.replace('-', 'Z');
-}
-
-function random (_len) {
-	/*
-	var len = _len || 8 ;
-	return require('crypto').randomBytes(len).toString('hex');
-	*/
-	
-	var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
-	var rs = '';
-	var len = _len || 8 ;
-	for (var i=0; i< len; i++) {
-		var pos = Math.floor( Math.random() * chars.length);
-		rs += chars.substring(pos, pos + 1);
-	}
-	return rs;
 }

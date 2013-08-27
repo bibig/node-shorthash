@@ -5,8 +5,8 @@
 		"url": "https://twitter.com/bibig"
 	  },
     "name": "shorthash",
-    "version": "0.0.2",
-    "description": "Node.js module to get a short unique hash of a string",
+    "version": "0.0.4",
+    "description": "generate a short unique hash based on a long string",
     "preferGlobal": "true",
     "main": "index.js",
     "keywords": ["hash", "shorthash"],
@@ -16,7 +16,6 @@
     },
     "license": "MIT",
     "readmeFilename": "README.md",
-    "dependencies": {
-    },
+    "dependencies": {},
     "engines": { "node": "*" }
 }
