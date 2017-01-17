@@ -7,10 +7,10 @@
 	shorthash may be freely distributed under the MIT license.
 */
 
-exports.bitwise = bitwise;
-exports.binaryTransfer = binaryTransfer;
-exports.unique = unique;
-
+module.exports = unique;
+module.exports.unique = unique;
+module.exports.bitwise = bitwise;
+module.exports.binaryTransfer = binaryTransfer;
 
 // refer to: http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/
 function bitwise(str){
